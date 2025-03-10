@@ -1,4 +1,6 @@
 # FUSED-Net
+FUSED-Net is an advanced traffic sign detection model based on Faster R-CNN, designed to achieve high performance with limited data. Unlike conventional methods, FUSED-Net leverages:
+-Unfrozen Parameters – Allows learning from limited samples.
 ## Installation
 ```bash
 git clone https://github.com/180041123-Atiq/FUSED-Net.git
