@@ -5,6 +5,8 @@ FUSED-Net is an advanced traffic sign detection model based on **F**aster R-CNN,
 - **E**mbedding Normalization - Incorporated to reduce intra-class variance, standardizing feature representation.
 - **D**omain Adaptation - Achieved by pre-training on a diverse traffic sign dataset distinct from the target domain and improved model generalization.
 
+The following you will find our overall structure of our propoposed framework.
+
 Evaluating FUSED-Net on the BDTSD dataset, we achieved 2.4x, 2.2x, 1.5x, and 1.3x improvements of mAP in 1-shot, 3-shot, 5-shot, and 10-shot scenarios, respectively compared to the state-of-the-art Few-Shot Object Detection (FSOD) models. Additionally, we outperform state-of-the-art works on the cross-domain FSOD benchmark under several scenarios. 
 ## Installation
 We used `Ubuntu 20.04.6 LTS` as our OS. Additionally, used conda to create our virtual environment. The full specification of our virtual environment is defined in `environment.yml` and you can easily download and install it by executing the following bash code in your ubuntu terminal.
