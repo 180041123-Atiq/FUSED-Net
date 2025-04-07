@@ -60,7 +60,7 @@ mkdir log
 bash run.sh
 ```
 ### Citation
-
+This repo is developed based on [CD-FSOD](https://github.com/woody-panda/CD-FSOD). And also I extend my sincere thanks to all those who made their resources available as open source, which greatly supported my work.
 If you use this work, please cite:
 ```
 Rahman MA, Asad NI, Omi MM, Hasan MB, Ahmed S, Kabir MH. FUSED-Net: Enhancing Few-Shot Traffic Sign Detection with Unfrozen Parameters, Pseudo-Support Sets, Embedding Normalization, and Domain Adaptation. arXiv preprint arXiv:2409.14852. 2024 Sep 23.
