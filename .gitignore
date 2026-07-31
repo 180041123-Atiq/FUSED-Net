@@ -3,3 +3,4 @@ datasets/
 outputBDTSDD/
 output/
 log/
+yolov8s.pt

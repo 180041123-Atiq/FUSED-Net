@@ -25,6 +25,8 @@ git clone https://github.com/180041123-Atiq/FUSED-Net.git
 cd FUSED-Net
 conda env create -f environment.yml
 conda activate FUSED-Net
+git clone https://github.com/facebookresearch/detectron2.git
+python -m pip install -e detectron2
 ```
 ## Data Processing
 The present code structure requires datasets directory in the root directory of this project. And also the BDTSD dataset folder in datasets directory.
