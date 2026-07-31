@@ -1,0 +1,5 @@
+detectron2/
+datasets/
+outputBDTSDD/
+output/
+log/

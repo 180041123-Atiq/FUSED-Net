@@ -26,7 +26,7 @@ class SIStrainer(DefaultTrainer):
 
     def __init__(self,cfg):
       super().__init__(cfg)
-      
+    
       self._trainer = SimpleTrainer(
           self.model,
           self.data_loader, 
