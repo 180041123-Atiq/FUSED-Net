@@ -47,6 +47,10 @@ gdown https://drive.google.com/file/d/1FRDs9V8SXFZRhyqUmMZpTiSTyLXBiCw0/view?usp
 unzip BDTSD.zip
 cd ..
 ```
+The remaining datasets can be collected from:
+- GTSDB: https://datasetninja.com/gtsdb#download
+- LISA: http://cvrr.ucsd.edu/LISA/lisa-traffic-sign-dataset.html
+- DFG: https://www.vicos.si/resources/dfg/
 ## MTSDD Weight Initialization
 Base Training a Faster-RCNN with our modification is time consuming. Thus, by executing the following block of bash you can download the weight of the base trained model (Model that is trained on MTSDD to reduce the loss of accuracy due to shift of domain).
 ```bash
