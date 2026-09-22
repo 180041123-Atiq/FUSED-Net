@@ -7,15 +7,15 @@ FUSED-Net is a traffic sign detection model based on **F**aster R-CNN, designed 
 
 You will find the overall structure of our propoposed framework in the following figure.
 
-<img src="assets/FUSED-Net.png" alt="proposed Framework" width="600">
+<img src="assets/fig2.png" alt="proposed Framework" width="600">
 
 Following table depicts our performance in Bangladeshi Traffic Sign Dataset.
 
-<img src="assets/ResultOnBDTSD.png" alt="BDTSD Result" width="400">
+<img src="assets/SOTAcomparisonFUSEDNet.png" alt="BDTSD Result" width="400">
 
 Following table depicts our performance in CD-FSOD benchmark.
 
-<img src="assets/ResultOnCDFSOD.png" alt="CDFSOD Result" width="500">
+<img src="assets/CrossDomainEvalFusedNet.png" alt="CDFSOD Result" width="500">
 
 Evaluating FUSED-Net on the BDTSD dataset, we achieved 2.4x, 2.2x, 1.5x, and 1.3x improvements of mAP in 1-shot, 3-shot, 5-shot, and 10-shot scenarios, respectively compared to the state-of-the-art Few-Shot Object Detection (FSOD) models. Additionally, we outperform state-of-the-art works on the cross-domain FSOD benchmark under several scenarios. 
 ## Installation
@@ -49,7 +49,7 @@ cd ..
 ```
 The remaining datasets can be collected from:
 - GTSDB: https://datasetninja.com/gtsdb#download
-- LISA: http://cvrr.ucsd.edu/LISA/lisa-traffic-sign-dataset.html
+- LISA: https://www.kaggle.com/datasets/mbornoe/lisa-traffic-light-dataset
 - DFG: https://www.vicos.si/resources/dfg/
 ## MTSDD Weight Initialization
 Base Training a Faster-RCNN with our modification is time consuming. Thus, by executing the following block of bash you can download the weight of the base trained model (Model that is trained on MTSDD to reduce the loss of accuracy due to shift of domain).
