@@ -11,11 +11,11 @@ You will find the overall structure of our propoposed framework in the following
 
 Following table depicts our performance in Bangladeshi Traffic Sign Dataset.
 
-<img src="assets/SOTAcomparisonFUSEDNet.png" alt="BDTSD Result" width="400">
+<img src="assets/SOTAcomparisonFUSEDnet.png" alt="BDTSD Result" width="400">
 
 Following table depicts our performance in CD-FSOD benchmark.
 
-<img src="assets/CrossDomainEvalFusedNet.png" alt="CDFSOD Result" width="500">
+<img src="assets/crossDomainEvalFusedNet.png" alt="CDFSOD Result" width="500">
 
 Evaluating FUSED-Net on the BDTSD dataset, we achieved 2.4x, 2.2x, 1.5x, and 1.3x improvements of mAP in 1-shot, 3-shot, 5-shot, and 10-shot scenarios, respectively compared to the state-of-the-art Few-Shot Object Detection (FSOD) models. Additionally, we outperform state-of-the-art works on the cross-domain FSOD benchmark under several scenarios. 
 ## Installation
