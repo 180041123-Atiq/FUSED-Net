@@ -47,6 +47,8 @@ gdown https://drive.google.com/file/d/1FRDs9V8SXFZRhyqUmMZpTiSTyLXBiCw0/view?usp
 unzip BDTSD.zip
 cd ..
 ```
+The BDTSD dataset is also available in: https://www.kaggle.com/datasets/atiqurrahman23/bangladeshi-traffic-sign-detection/data
+
 The remaining datasets can be collected from:
 - GTSDB: https://datasetninja.com/gtsdb#download
 - LISA: https://www.kaggle.com/datasets/mbornoe/lisa-traffic-light-dataset
